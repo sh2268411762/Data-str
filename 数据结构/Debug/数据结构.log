@@ -1,0 +1,4 @@
+﻿  数据结构.cpp
+D:\git Code\58——C++\Data-str\数据结构\数据结构.cpp(101,18): warning C4018: “>”: 有符号/无符号不匹配
+D:\git Code\58——C++\Data-str\数据结构\数据结构.cpp(107,33): warning C4018: “>”: 有符号/无符号不匹配
+  数据结构.vcxproj -> D:\git Code\58——C++\Data-str\数据结构\Debug\数据结构.exe
