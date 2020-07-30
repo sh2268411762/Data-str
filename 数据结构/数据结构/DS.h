@@ -11,6 +11,7 @@
 #include <stdbool.h>
 #include <iostream>
 #define _CRT_SECURE_NO_WARNINGS
+typedef int ElemType;
 //#pragma warning(disable:4996)
 //#include <vld.h>
 //void Swap(int *x, int *y)

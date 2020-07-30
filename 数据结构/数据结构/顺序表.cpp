@@ -340,16 +340,28 @@
 //	}
 //	return -1;
 //}
-//void SeqListClear_Item(SeqList *plist, ElemType del)
+//void SeqListClear_Item(SeqList *plist, ElemType del)//删除所有指定元素
 //{
 //	assert(plist != NULL);
-//	for (size_t i = 0; i < plist->size; i++)
+//	//for (size_t i = 0; i < plist->size; i++)
+//	//{
+//	//	if (del == plist->base[i])
+//	//	{
+//	//		SeqListEraseByVal(plist, del);
+//	//	}
+//	//}
+//
+//	int count = 0;
+//	for (int i = 0; i < plist->size; i++)
 //	{
-//		if (del == plist->base[i])
+//		if (plist->base[i] != del)
 //		{
-//			SeqListEraseByVal(plist, del);
+//			plist->base[count] = plist->base[i];
+//			count++;
 //		}
 //	}
+//
+//	plist->size = count;
 //}
 //
 //
@@ -378,7 +390,7 @@
 //		printf("*  [18] binary（二分查找）             [19] erase_all（删除表中某一元素   *\n");
 //		printf("***************************************************************************\n");
 //		printf("请选择");
-//		scanf("%d", &select);
+//		(void)scanf("%d", &select);
 //		if (select == 0)
 //		{
 //			break;
@@ -387,7 +399,7 @@
 //		{
 //		case 1:
 //			printf("请输入要插入的数据<以-1结束>:");
-//			while (scanf("%d", &item), item != -1)
+//			while ((void)scanf("%d", &item), item != -1)
 //			{
 //				SeqListPushBack(&list, item);
 //			}
@@ -396,7 +408,7 @@
 //
 //		case 2:
 //			printf("请输入要插入的数据<以-1结束>:");
-//			while (scanf("%d", &item), item != -1)
+//			while ((void)scanf("%d", &item), item != -1)
 //			{
 //				SeqListPushFront(&list, item);
 //			}
@@ -423,9 +435,9 @@
 //
 //		case 6://按位置插入元素
 //			printf("请输入要插入的位置:>");
-//			scanf("%d", &pos);
+//			(void)scanf("%d", &pos);
 //			printf("请输入要插入的元素:>");
-//			scanf("%d", &item);
+//			(void)scanf("%d", &item);
 //			flag = SeqListInsertByPos(&list, pos, item);
 //			if (flag)
 //			{
@@ -439,7 +451,7 @@
 //
 //		case 7:
 //			printf("按值插入（请输入要插入的值）：");
-//			scanf("%d", &item);
+//			(void)scanf("%d", &item);
 //			SeqListSort(&list);//先进行排序
 //			SeqListInsertByVal(&list,item);//在进行按值插入
 //			printf("插入完成...\n");
@@ -447,21 +459,21 @@
 //
 //		case 8:
 //			printf("按位置删除（请输入要删除的值的位置）：");
-//			scanf("%d", &pos);
+//			(void)scanf("%d", &pos);
 //			SeqListEraseByPos(&list, pos);
 //			printf("按位置删除完成...\n");
 //			break;
 //
 //		case 9:
 //			printf("按值删除（请输入要删除的值）：");
-//			scanf("%d", &item);
+//			(void)scanf("%d", &item);
 //			SeqListEraseByVal(&list, item);
 //			printf("按值删除完成...\n");
 //			break;
 //
 //		case 10:
 //			printf("请输入要查找的值：");
-//			scanf("%d", &item);
+//			(void)scanf("%d", &item);
 //			pos = SeqListFind(&list, item);
 //			if (-1 == pos)
 //			{
@@ -517,7 +529,7 @@
 //
 //		case 18:
 //			printf("二分查找...\n请输入要查找的值：");
-//			scanf("%d", &item);
+//			(void)scanf("%d", &item);
 //			SeqListSort(&list);//先进行排序
 //			pos = SeqListBinary(&list,item);
 //			if (pos == -1)
@@ -533,7 +545,7 @@
 //
 //		case 19:
 //			printf("清空顺序表某元素...\n请输入要删除的元素：");
-//			scanf("%d", &item);
+//			(void)scanf("%d", &item);
 //			SeqListClear_Item(&list,item);
 //			printf("清空完成...\n");
 //			break;
