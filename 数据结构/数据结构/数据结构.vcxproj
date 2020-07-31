@@ -142,11 +142,16 @@
     <ClCompile Include="单循环链表.cpp" />
     <ClCompile Include="单链表.cpp" />
     <ClCompile Include="双链表.cpp" />
+    <ClCompile Include="循环队列.cpp" />
+    <ClCompile Include="栈-链栈.cpp" />
+    <ClCompile Include="栈-顺序栈.cpp" />
+    <ClCompile Include="链式队列.cpp" />
     <ClCompile Include="链表_头结点.cpp" />
     <ClCompile Include="顺序表.cpp">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</SDLCheck>
     </ClCompile>
     <ClCompile Include="链表.cpp" />
+    <ClCompile Include="顺序队列.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DS.h" />
