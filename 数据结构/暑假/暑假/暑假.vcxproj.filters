@@ -39,5 +39,11 @@
     <ClCompile Include="第八天.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="第九天.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第十天.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="第九天.c" />
     <ClCompile Include="第八天.c" />
     <ClCompile Include="第一天.cpp" />
     <ClCompile Include="第七天.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="第二天.cpp" />
     <ClCompile Include="第五天.cpp" />
     <ClCompile Include="第六天.cpp" />
+    <ClCompile Include="第十天.cpp" />
     <ClCompile Include="第四天.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
