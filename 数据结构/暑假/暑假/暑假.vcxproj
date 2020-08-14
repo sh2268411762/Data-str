@@ -147,6 +147,7 @@
     <ClCompile Include="第二天.cpp" />
     <ClCompile Include="第五天.cpp" />
     <ClCompile Include="第六天.cpp" />
+    <ClCompile Include="第十一天.c" />
     <ClCompile Include="第十天.cpp" />
     <ClCompile Include="第四天.cpp" />
   </ItemGroup>
