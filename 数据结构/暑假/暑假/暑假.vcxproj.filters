@@ -48,5 +48,32 @@
     <ClCompile Include="第十一天.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="第十二天.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第十三天.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第十四天.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第十五天.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第十六天.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第十七天.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第十八天.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第十九天.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第二十天.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

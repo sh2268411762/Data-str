@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="第九天.c" />
+    <ClCompile Include="第二十天.c" />
     <ClCompile Include="第八天.c" />
     <ClCompile Include="第一天.cpp" />
     <ClCompile Include="第七天.cpp" />
@@ -148,6 +149,14 @@
     <ClCompile Include="第五天.cpp" />
     <ClCompile Include="第六天.cpp" />
     <ClCompile Include="第十一天.c" />
+    <ClCompile Include="第十七天.c" />
+    <ClCompile Include="第十三天.cpp" />
+    <ClCompile Include="第十九天.cpp" />
+    <ClCompile Include="第十二天.cpp" />
+    <ClCompile Include="第十五天.c" />
+    <ClCompile Include="第十八天.c" />
+    <ClCompile Include="第十六天.cpp" />
+    <ClCompile Include="第十四天.c" />
     <ClCompile Include="第十天.cpp" />
     <ClCompile Include="第四天.cpp" />
   </ItemGroup>
